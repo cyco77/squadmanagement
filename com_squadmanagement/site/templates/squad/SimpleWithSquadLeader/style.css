@@ -1,0 +1,106 @@
+
+/* Sqaudist */
+
+.squadlisttemplate_memberlist ul {
+    padding: 0;
+    margin: 0;
+}
+
+.squadlisttemplate_memberlist li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Squad */
+
+.squadlisttemplate_squad_header {
+    width: 100%;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.squadlisttemplate_squad {
+    clear: both;
+}
+
+.squadlisttemplate_squad_image {
+    float: left;
+    display: table-cell;
+}
+
+    .squadlisttemplate_squad_image img {
+        text-align: center;
+    }
+
+.squadlisttemplate_squad_name {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .squadlisttemplate_squad_name span {
+        font-weight: bold;
+        color: #555;
+        font-family: 'Titillium Maps', Arial;
+        font-size: 24px;
+    }
+
+/* Squadmember */
+
+.squadlisttemplate_squadmember {
+    background-color: #EEE;
+    font-size: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #BBB;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    text-align: center;
+}
+
+.squadlisttemplate_squadmember_image img {
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+.squadlisttemplate_squadleader {
+    background: url(images/squadleader.png) left top no-repeat;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    z-index: 50;
+    display: inline-block;
+}
+
+.squadlisttemplate_matchadmin {
+    background: url(images/matchadmin.png) left top no-repeat;
+    width: 82px;
+    height: 82px;
+    position: absolute;
+    z-index: 50;
+    display: inline-block;
+}
+
+
+@media all and (max-width: 480px) {
+    /* Squad */
+    .squadlisttemplate_squad_image {
+        clear: both;
+        display: block;
+    }
+
+    .squadlisttemplate_squad_name {
+        clear: both;
+        display: block;
+        vertical-align: middle;
+    }
+}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 980px) {
+}

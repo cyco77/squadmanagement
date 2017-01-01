@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"		/>
+    <field
+			name="wardatetime"
+			type="calendar"
+      format="%Y-%m-%d %H:%M:%S" 
+      filter="user_utc"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_WARDATETIME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_WARDATETIME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"		/>
+    <field id="published"
+      name="published"
+      type="list"
+      label="JSTATUS"
+      description="JFIELD_PUBLISHED_DESC"
+      class="inputbox"
+      size="1"
+      default="1"		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field id="state"
+      name="state"
+      type="warstate"
+      label="COM_SQUADMANAGEMENT_FIELD_WAR_STATE_LABEL"
+      description="COM_SQUADMANAGEMENT_FIELD_WAR_STATE_DESC"
+      class="inputbox"
+      size="1"
+      default="0"		>
+    </field>    
+    <field
+			name="squadid"
+			type="squad"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_SQUAD_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_SQUAD_DESC"
+			size="1"
+			class="inputbox"
+			required="true"
+		/>
+    <field
+			name="opponentid"
+			type="opponent"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_OPPONENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_OPPONENT_DESC"
+			size="1"
+			class="inputbox"
+			required="true"
+		/>
+    <field
+     name="leagueid"
+     type="league"
+     label="COM_SQUADMANAGEMENT_FIELD_WAR_LEAGUE_LABEL"
+     description="COM_SQUADMANAGEMENT_FIELD_WAR_LEAGUE_DESC"
+     size="1"
+     class="inputbox"
+     required="true"
+		/>
+    <field
+			name="matchlink"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_MATCHLINK_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_MATCHLINK_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+    <field
+			name="lineup"
+			type="textarea"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_LINEUP_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_LINEUP_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+    <field
+			name="lineupopponent"
+			type="textarea"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_LINEUPOPPONENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_LINEUPOPPONENT_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+    <field
+			name="score"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_SCORE_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_SCORE_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+    <field
+			name="scoreopponent"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_SCOREOPPONENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_SCOREOPPONENT_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+	<field
+		name="resultscreenshot"
+		type="media"
+		directory="squadmanagement/warscreenshots"
+		label="COM_SQUADMANAGEMENT_FIELD_WAR_RESULTSCREENSHOT_LABEL"
+		description="COM_SQUADMANAGEMENT_FIELD_WAR_RESULTSCREENSHOT_DESC"
+		preview="true"	  />
+    <field
+          name="challengedescription"
+          type="textarea"
+          label="COM_SQUADMANAGEMENT_FIELD_WAR_CHALLENGEDESCRIPTION_LABEL"
+          description="COM_SQUADMANAGEMENT_FIELD_WAR_CHALLENGEDESCRIPTION_DESC"
+          rows="10"
+          cols="5"
+          class="inputbox"
+          required="false"		/>
+    <field
+			name="description"
+			type="editor"
+			label="COM_SQUADMANAGEMENT_FIELD_WAR_DESCRIPTION_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WAR_DESCRIPTION_DESC"
+		class="inputbox"
+		filter="JComponentHelper::filterText"
+		buttons="true"
+		hide="readmore,pagebreak"	/>
+    <field
+      name="ordering"
+      type="hidden"/>
+  </fieldset>
+</form>

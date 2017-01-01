@@ -1,0 +1,365 @@
+
+legend
+{
+    color: #146295;
+    font-size: 1.182em;
+    font-weight: bold;
+}
+
+input, select
+{
+    font-size: 0.909em;
+    border: 1px solid silver;
+    background: #fff;
+}
+
+textarea
+{
+    font-size: 1.273em;
+    border: 1px solid silver;
+}
+
+.clr
+{
+    clear: both;
+    overflow: hidden;
+    height: 0;
+}
+
+form
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Administrator forms, lists */
+div.adminform
+{
+    margin: 10px;
+    overflow: hidden;
+}
+
+div.adminform legend
+{
+    margin: 0;
+    padding: 0;
+}
+
+div.adminformlist, div.adminformlist div
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+div label, div span.faux-label
+{
+    clear: left;
+    display: block;
+    margin: 5px 0;
+}
+
+form label, form span.faux-label
+{
+    font-size: 1.091em;
+}
+
+div input, div textarea, div select, div img, div button
+{
+    width: auto;
+    margin: 5px 5px 5px 0;
+}
+
+div.adminform textarea
+{
+    width: 355px;
+}
+
+div.adminform a
+{
+    margin: 0 !important;
+}
+
+fieldset div.checklist input
+{
+    clear: left;
+    margin-right: 10px;
+}
+
+fieldset div.checklist label, fieldset div.menu-links label, fieldset#filter-bar label
+{
+    clear: none;
+}
+fieldset.adminform div.checklist div
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+fieldset.adminform div.checklist div label
+{
+    width: auto;
+}
+
+input.readonly
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.091em;
+    padding-top: 1px;
+    border: 0;
+    font-weight: bold;
+    color: #666;
+}
+
+#jform_id, span.readonly
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.091em;
+    margin: 5px 5px 5px 0;
+    font-weight: bold;
+    display: block;
+    color: #666;
+}
+
+#jform_params_alt, #jform_clickurl
+{
+    width: 355px;
+}
+
+#jform-imp
+{
+    width: 70px;
+}
+
+.mod-desc
+{
+    margin-left: 135px !important;
+    float: none !important;
+}
+
+input.readonly
+{
+    background-color: #ffffff;
+}
+
+#jform_params_width, #jform_params_height, #jform_params_increase, #jform_params_shownumber, #jform_params_count
+{
+    width: 50px;
+}
+
+#jform_id
+{
+    width: 50px;
+    background-color: #FFFFFF;
+    border: 0 none;
+}
+
+input#jform_title, input#jform_leveltitle, input#jform_grouptitle
+{
+    font-size: 1.364em;
+}
+
+label#jform_title-lbl, label#jform_leveltitle-lbl, label#jform_grouptitle-lbl
+{
+    padding-top: 3px;
+}
+
+div#content-pane fieldset
+{
+    border: 0;
+    padding: 10px 15px 0 15px;
+}
+
+div.panel fieldset
+{
+    border: 0;
+}
+
+/* Required elements */
+input.required
+{
+    background-color: #d5eeff;
+}
+
+.star
+{
+    color: #EB8207;
+    font-size: 1.2em;
+}
+
+/* Field label widths - long label */
+div.adminform.long label, div.adminform.long span.faux-label
+{
+    min-width: 180px;
+}
+
+/* Field label widths - short label */
+div.adminform label, div.adminform span.faux-label
+{
+    min-width: 135px;
+    padding: 0 5px 0 0;
+}
+
+.adminform div, ol#property-values div
+{
+    list-style: none;
+    margin: 0;
+}
+
+.media-preview
+{
+    margin: 10px;
+    clear: both;
+}
+
+.button2-left
+{
+    margin: 0;
+}
+
+/* Edit War*/
+#squadmanagementsavefirst {
+    display:none;
+}
+
+/* Edit Squad */
+
+#squadmembers, #squadmembers tr
+{
+    border: 0;
+}
+
+#squadmembers img,
+#squadmembers span,
+#squadmembers input
+{
+    margin: 5px;
+}
+
+#addmember
+{
+    margin: 3px;
+}
+
+#addmember table, #addmember tr, #addmember td
+{
+    border: 0;
+}
+
+#addmember input
+{
+    margin: 2px;
+}
+
+#usersuggestions_table td,
+#usersuggestions_table th
+{
+    padding: 5px;
+    border:1px solid #bbb;
+}
+
+.usersuggestions_row:hover {
+	cursor: pointer;
+	background-color: #f7e7c8;
+}
+
+/* Challenge */
+
+#opponentsugestions {
+	clear: both;
+}
+
+#opponentsugestions td,
+#opponentsugestions th
+{
+    padding-left: 5px;
+    border:1px solid #bbb;
+    font-size: 90%;
+}
+
+.opponents_row:hover {
+	cursor: pointer;
+	background-color: #f7e7c8;
+}
+
+/* Formresult */
+
+.squadmanagement_save_success
+{
+    background-color: #D3E2F0;
+    background-image: -moz-linear-gradient(#E0EBF5, #C6D9EC);
+    border: 1px solid #79A6D2;
+    color: #2D5986;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 0 0 3px rgba(0, 0, 0, 0.06);
+    clear: both;
+    display: block;
+    margin: 0 0 28px;
+    padding: 7px 14px;
+}
+
+.squadmanagement_save_fail
+{
+    background-color: #D3E2F0;
+    background-image: -moz-linear-gradient(#E0EBF5, #C6D9EC);
+    border: 1px solid #ee1168;
+    color: #2D5986;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset, 0 0 0 3px rgba(0, 0, 0, 0.06);
+    clear: both;
+    display: block;
+    margin: 0 0 28px;
+    padding: 7px 14px;
+}
+
+/* TABS */
+
+dl.tabs
+{
+    float: left;
+    margin: 10px 0 -1px 0;
+    z-index: 50;
+}
+
+dl.tabs dt
+{
+    float: left;
+    padding: 4px 10px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin-left: 3px;
+    background: #f0f0f0;
+    color: #666;
+}
+
+dl.tabs dt.open
+{
+    background: #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+    z-index: 100;
+    color: #000;
+}
+
+div.current
+{
+    clear: both;
+    border: 1px solid #ccc;
+    padding: 10px 10px;
+}
+
+div.current dd
+{
+    padding: 0;
+    margin: 0;
+}
+
+    
+/* Add Opponent */
+#addopponentdiv
+{
+    border: 1px solid #f0f0f0;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+}

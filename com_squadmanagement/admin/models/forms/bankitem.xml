@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"		/>
+    <field
+			name="itemdatetime"
+			type="calendar"
+       format="%Y-%m-%d"
+      filter="user_utc"
+			label="COM_SQUADMANAGEMENT_FIELD_BANKITEM_ITEMDATETIME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_BANKITEM_ITEMDATETIME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"		/>
+    <field
+			name="subject"
+			type="BankItemCategory"
+			label="COM_SQUADMANAGEMENT_FIELD_BANKITEM_SUBJECT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_BANKITEM_SUBJECT_DESC"
+			size="1"
+			class="inputbox"
+			required="true"		/>
+    <field
+			name="userid"
+			type="user"
+			label="COM_SQUADMANAGEMENT_FIELD_BANKITEM_USER_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_BANKITEM_USER_DESC"
+			size="40"
+			class="inputbox"
+			required="false"	
+      onchange="getMemberInfos()"/>
+    <field
+			name="amount"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_BANKITEM_AMOUNT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_BANKITEM_AMOUNT_DESC"
+			size="5"
+			class="inputbox"
+			required="true"		
+      onchange="updatePayedTo()"/>
+    <field
+		name="type"
+		  type="bankitemtype"
+			label="COM_SQUADMANAGEMENT_FIELD_BANKITEM_TYPE_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_BANKITEM_TYPE_DESC"
+			size="2"
+			class="inputbox"
+			required="true"	
+      default="1"/>
+    <field id="published"
+			name="published"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+      name="ordering"
+      type="hidden"/>
+  </fieldset>
+</form>

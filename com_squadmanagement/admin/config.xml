@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <fields addfieldpath="/administrator/components/com_squadmanagement/models/fields">
+    <fieldset name="common"
+      label="COM_SQUADMANAGEMENT_CONFIGURATION_COMMON"
+      description="COM_SQUADMANAGEMENT_CONFIGURATION_COMMON_DESC">
+      <field name="usedisplayname" type="radio" default="1" label="COM_SQUADMANAGEMENT_CONFIGURATION_USEDISPLAYNAME" description="COM_SQUADMANAGEMENT_CONFIGURATION_USEDISPLAYNAME_DESC">
+        <option value="1">SquadManagement</option>
+        <option value="2">Joomla Username</option>
+        <option value="3">Joomla Login</option>
+      </field>
+      <field name="appointmentcategories" type="textarea" default="Default" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_APPOINTMENTS_CATEGORIES" description="COM_SQUADMANAGEMENT_CONFIGURATION_APPOINTMENTS_CATEGORIES_DESC" />
+    </fieldset>
+	<fieldset name="bank"
+      label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK"
+      description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_DESC">
+      <field name="usebank" type="radio" default="0" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_USEBANK" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_USEBANK_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+      <field name="bankitemsubjects" type="textarea" default="Default" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_BANKITEMSUBJECTS" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_BANKITEMSUBJECTS_DESC" />
+
+      <field name="bankitemaccountowner" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTOWNER" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTOWNER_DESC" />
+      <field name="bankitemaccountnumber" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTNUMBER" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTNUMBER_DESC" />
+      <field name="bankitemaccountbankcode" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTBANKCODE" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTBANKCODE_DESC" />
+      <field name="bankitemaccountbankname" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTBANKNAME" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTBANKNAME_DESC" />
+      <field name="bankitemaccountsubject" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTSUBJECT" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTSUBJECT_DESC" />
+      <field name="bankitemaccountiban" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTIBAN" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTIBAN_DESC" />
+      <field name="bankitemaccountbic" type="text" default="" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTBIC" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTBIC_DESC" />
+
+      <field name="bankitemaccountdescription" type="editor" label="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTDESCRIPTION" description="COM_SQUADMANAGEMENT_CONFIGURATION_BANK_ACCOUNTDESCRIPTION_DESC" class="inputbox" filter="raw" buttons="true" hide="readmore,pagebreak"	/>
+
+  </fieldset>
+    <fieldset name="integration"
+      label="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION"
+      description="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_DESC">
+      <field name="integration_avatarsource"
+        type="List"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_DESC">
+        <option value="0">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_DEFAULT</option>
+        <option value="1">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_KUNENA</option>
+        <option value="2">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_GRAVATAR</option>
+        <option value="3">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_COMMUINTYBUILDER</option>
+        <option value="4">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_CBE</option>
+        <option value="5">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_AVATARSOURCE_STEAM</option>
+      </field>
+      <field name="integration_profile"
+       type="List"
+       label="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_PROFILE_LABEL"
+       description="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_PROFILE_DESC">
+        <option value="0">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_PROFILE_DEFAULT</option>
+        <option value="1">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_PROFILE_KUNENA</option>
+        <option value="2">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_PROFILE_COMMUINTYBUILDER</option>
+        <option value="3">COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_PROFILE_CBE</option>
+      </field>
+      <field name="usejcomments" type="radio" default="1" label="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_USEJCOMMENTS" description="COM_SQUADMANAGEMENT_CONFIGURATION_INTEGRATION_USEJCOMMENTS_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+    </fieldset>
+    <fieldset name="templates"
+          label="COM_SQUADMANAGEMENT_CONFIGURATION_TEMPLATES"
+          description="COM_SQUADMANAGEMENT_CONFIGURATION_TEMPLATES_DESC">
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="squadcategorylisttemplate"
+        type="squadcategorylisttemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADCATEGORYLISTTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADCATEGORYLISTTEMPLATE_NAME_DESC"/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="squadlisttemplate"
+        type="SquadListTemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADLISTTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADLISTTEMPLATE_NAME_DESC"/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="squadtemplate"
+        type="SquadTemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADTEMPLATE_NAME_DESC"/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="squadmembertemplate"
+        type="SquadMemberTemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADMEMBERTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_SQUADMEMBERTEMPLATE_NAME_DESC"/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="warlisttemplate"
+        type="WarlistTemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_WARLISTTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_WARLISTTEMPLATE_NAME_DESC"	/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="wartemplate"
+        type="WarTemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_WARTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_WARTEMPLATE_NAME_DESC"	/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="awardstemplate"
+        type="awardstemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_AWARDSTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_AWARDSTEMPLATE_NAME_DESC"	/>
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="userdashboardtemplate"
+        type="userdashboardtemplate"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_USERDASHBOARDTEMPLATE_NAME_LABEL"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_USERDASHBOARDTEMPLATE_NAME_DESC"	/>
+    </fieldset>
+    <fieldset name="email"
+      label="COM_SQUADMANAGEMENT_CONFIGURATION_EMAIL"
+      description="COM_SQUADMANAGEMENT_CONFIGURATION_EMAIL_DESC">
+      <field name="enablejoinusmail" type="radio" default="1" label="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS" description="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+      <field name="joinusmailheader" type="text" default="New Joinrequest" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_SUBJECT" description="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_SUBJECT_DESC" />
+      <field name="joinusmailbody" type="textarea" default="New Joinrequest" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_BODY" description="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_BODY_DESC" />
+      <field name="enablefightusmail" type="radio" default="1" label="COM_SQUADMANAGEMENT_CONFIGURATION_FIGHTUS" description="COM_SQUADMANAGEMENT_CONFIGURATION_FIGHTUS_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+      <field name="fightusmailheader" type="text" default="New Fight-Us Request" length="160" label="COM_SQUADMANAGEMENT_CONFIGURATION_FIGHTUS_SUBJECT" description="COM_SQUADMANAGEMENT_CONFIGURATION_FIGHTUS_SUBJECT_DESC" />
+      <field name="fightusmailbody" type="textarea" default="New Fight-Us Request" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_FIGHTUS_BODY" description="COM_SQUADMANAGEMENT_CONFIGURATION_FIGHTUS_BODY_DESC" />
+    </fieldset>
+    <fieldset name="forum"
+      label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM"
+      description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_DESC">
+      <field name="enablefightuskunenaforummessage" type="radio" default="0" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_MESSAGE" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_MESSAGE_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+      <field name="fightuskunenaforumwriterid" type="text" default="" length="5" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_WRITERID" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_WRITERID_DESC" />
+      <field name="fightuskunenaforumwritername" type="text" default="" length="20" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_WRITERNAME" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_WRITERNAME_DESC" />
+      <field name="fightuskunenaforumcatid" type="text" default="" length="5" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_CATEGORY" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_CATEGORY_DESC" />
+      <field name="fightuskunenaforumpostsubject" type="textarea" default="New Fight-Us Request" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_SUBJECT" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_SUBJECT_DESC" />
+      <field name="fightuskunenaforumpostbody" type="textarea" default="New Fight-Us Request" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_BODY" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_BODY_DESC" />
+
+      <field name="enablejoinuskunenaforummessage" type="radio" default="0" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_MESSAGE" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_MESSAGE_DESC">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+      </field>
+      <field name="joinuskunenaforumwriterid" type="text" default="" length="5" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_FIGHTUS_WRITERID" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_WRITERID_DESC" />
+      <field name="joinuskunenaforumwritername" type="text" default="" length="20" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_WRITERNAME" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_WRITERNAME_DESC" />
+      <field name="joinuskunenaforumcatid" type="text" default="" length="5" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_CATEGORY" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_CATEGORY_DESC" />
+      <field name="joinuskunenaforumpostsubject" type="textarea" default="New Join-Us Request" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_SUBJECT" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_SUBJECT_DESC" />
+      <field name="joinuskunenaforumpostbody" type="textarea" default="New Join-Us Request" rows="8" cols="50" label="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_BODY" description="COM_SQUADMANAGEMENT_CONFIGURATION_KUNENAFORUM_JOINUS_BODY_DESC" />
+    </fieldset>
+    <fieldset name="noaccesstemplates"
+             label="COM_SQUADMANAGEMENT_CONFIGURATION_NOACCESSTEMPLATES"
+             description="COM_SQUADMANAGEMENT_CONFIGURATION_NOACCESSTEMPLATES_DESC">
+      <field
+        name="joinuserrormessage"
+        type="editor"
+        label="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_ERRORMESSAGE"
+        description="COM_SQUADMANAGEMENT_CONFIGURATION_JOINUS_ERRORMESSAGE_DESC"
+        class="inputbox"
+        filter="JComponentHelper::filterText"
+        buttons="true"
+        hide="readmore,pagebreak"	/>     
+    </fieldset>
+	<fieldset
+        name="permissions"
+        label="JCONFIG_PERMISSIONS_LABEL"
+        description="JCONFIG_PERMISSIONS_DESC">
+      <field
+        name="rules"
+        type="rules"
+        label="JCONFIG_PERMISSIONS_LABEL"
+        class="inputbox"
+        filter="rules"
+        validate="rules"
+        component="com_squadmanagement"
+        section="component" />
+    </fieldset>
+  </fields>
+</config>

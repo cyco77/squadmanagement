@@ -1,0 +1,81 @@
+
+
+/* Squadmanagement Admintoolbar */
+
+#squadmanagement_admin_toolbar {
+    margin-bottom: 5px;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+    #squadmanagement_admin_toolbar a {
+        text-decoration: none;
+    }
+
+.squadmanagement_admin_toolbar_editprofile {
+    display: inline-block;
+    list-style: none;
+}
+
+.squadmanagement_admin_toolbar_item {
+    display: table;
+    margin: 3px;
+}
+
+.squadmanagement_admin_toolbar_image {
+    float: left;
+    display: table-cell;
+}
+
+.squadmanagement_admin_toolbar_caption {
+    padding-left: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #05850b;
+}
+
+.squadmanagement_admin_toolbar_caption:hover {
+    color: #981010;
+}
+
+.squadmanagement_admin_toolbar_caption input {
+    padding-left: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    color: #05850b;
+    border: 0px;
+}
+
+.squadmanagement_admin_toolbar_caption input:hover {
+    color: #981010;
+}
+
+#savebutton {
+    background-image: url('../images/save.png');
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    padding-left: 40px;
+    height: 40px;
+    border: 0px;
+    color: #05850b;  
+}
+
+#savewarbutton {
+    background-image: url('../images/save.png');
+    background-repeat: no-repeat;
+    background-position: 3px center;
+    padding-left: 40px;
+    height: 40px;
+    border: 0px;
+    color: #05850b;
+}
+
+#savewarbutton:hover {
+    color: #981010;
+}
+
+.squadmanagement_admin_toolbar_item {
+    cursor: pointer;
+}

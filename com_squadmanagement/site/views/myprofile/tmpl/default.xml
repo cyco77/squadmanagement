@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_SQUADMANAGEMENT_MYPROFILE_VIEW_DEFAULT_TITLE">
+		<message>COM_SQUADMANAGEMENT_MYPROFILE_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_squadmanagement/models/fields"
+	>
+		<fieldset name="request">
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+        name="squadmembertemplate"
+        type="SquadMemberTemplate"
+        label="COM_SQUADMANAGEMENT_SELECTSQUADMEMBERTEMPLATE_LABEL"
+        description="COM_SQUADMANAGEMENT_SELECTSQUADMEMBERTEMPLATE_DESC">
+        <option value="">JGLOBAL_USE_GLOBAL</option>
+      </field>
+		</fieldset>
+	</fields>
+</metadata>
+

@@ -1,0 +1,25 @@
+
+#appointmentslist
+{
+    width: 100%;
+}
+
+#appointmentslist td
+{
+    padding: 3px;
+}
+
+.appointmentslist_squadimage
+{
+    text-align:center;  
+}
+
+#appointmentslist th
+{
+    padding: 3px;
+}
+
+.appointmentslist
+{
+    text-align: center;
+}

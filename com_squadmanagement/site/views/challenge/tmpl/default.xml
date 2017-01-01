@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<metadata>
+	<layout title="COM_SQUADMANAGEMENT_CHALLENGE_VIEW_DEFAULT_TITLE">
+		<message>COM_SQUADMANAGEMENT_CHALLENGE_VIEW_DEFAULT_DESC</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_squadmanagement/models/fields"
+	>
+		<fieldset name="request">
+			<!--<field
+				name="id"
+				type="squadmember"
+				label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_USERNAME_LABEL"
+				description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_USERNAME_DESC"
+			/>-->
+		</fieldset>
+	</fields>
+</metadata>
+

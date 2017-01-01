@@ -1,0 +1,215 @@
+
+#wartemplate_teams_border
+{
+
+}
+
+#wartemplate_teams
+{
+    font-size: 20px;
+    border: 0;
+    width: 100%;
+}
+
+#wartemplate_teams tr, #wartemplate_teams td
+{
+    border: 1px solid #ddd;
+}
+
+#wartemplate_left 
+{
+    width: 45%;
+    text-align: center;
+    padding: 10px;
+}
+
+#wartemplate_right
+{
+    width: 45%;
+    text-align: center;
+    padding: 10px;    
+}
+
+#wartemplate_middle {
+    text-align: center;
+}
+
+.wartemplate_result_draw {
+    color: #D9CA13;
+    font-weight: bold;
+}
+
+.wartemplate_result_win {
+    color: #289F0A;
+    font-weight: bold;
+}
+
+.wartemplate_result_lost {
+    color: #D7084B; 
+    font-weight: bold;   
+}
+
+#wartemplate_data {
+    width: 100%;
+}
+
+#wartemplate_data th {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+#wartemplate_data td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.wartemplate_data_caption {
+    font-weight: bold;
+}
+
+.wartemplate_data_value {
+    width: 100%;
+}
+
+.wartemplate_players {
+    font-size: 15px;
+}
+
+#wartemplate_rounds {
+    width: 100%;
+}
+
+#wartemplate_rounds th {
+    padding: 5px;
+    border: 1px solid #ddd;    
+}
+
+.wartemplate_rounds_map {
+    width: 150px;
+}
+
+#wartemplate_rounds td {
+    border: 1px solid #ddd;
+}
+
+.wartemplate_rounds_map img {
+    margin: 5px;
+}
+
+.wartemplate_rounds_score {
+    text-align: center;
+}
+
+.wartemplate_rounds_screenshot {
+    
+}
+
+.wartemplate_rounds_screenshot img {
+    margin: 5px;
+}
+
+/* Trend */
+
+.trend
+{
+    position: relative;
+    height: 200px;
+    background: url("../../../images/wartrendbg.png") repeat-x left top;
+    border: 1px solid #ddd;
+}
+
+.trendbegin
+{
+    width: 50px;
+    height: 220px;
+    display: block;
+    float: left;
+}
+
+.trendbegin_win
+{
+    position: absolute;
+    top: 18px;
+    left: 7px;
+    font-size: 120%;
+    font-weight:bold;
+}
+
+.trendbegin_draw
+{
+    position: absolute;
+    top: 88px;
+    left: 7px;
+    font-size: 120%;
+    font-weight:bold;
+}
+
+.trendbegin_lost
+{
+    position: absolute;
+    top: 165px;
+    left: 7px;
+    font-size: 120%;
+    font-weight:bold;
+}
+
+.trendopponentlink
+{
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.trendelement
+{
+    width: 60px;
+    height: 200px;
+    float: left;
+}
+
+.win_win
+{
+    background: url("../../../images/wartrend_win_win.png") no-repeat left top;
+}
+
+.win_draw
+{
+    background: url("../../../images/wartrend_win_draw.png") no-repeat left top;
+}
+
+.win_lost
+{
+    background: url("../../../images/wartrend_win_lost.png") no-repeat left top;
+}
+
+.draw_win
+{
+    background: url("../../../images/wartrend_draw_win.png") no-repeat left top;
+}
+
+.draw_draw
+{
+    background: url("../../../images/wartrend_draw_draw.png") no-repeat left top;
+}
+
+.draw_lost
+{
+    background: url("../../../images/wartrend_draw_lost.png") no-repeat left top;
+}
+
+.lost_win
+{
+    background: url("../../../images/wartrend_lost_win.png") no-repeat left top;
+}
+
+.lost_draw
+{
+    background: url("../../../images/wartrend_lost_draw.png") no-repeat left top;
+}
+
+.lost_lost
+{
+    background: url("../../../images/wartrend_lost_lost.png") no-repeat left top;
+}

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset addfieldpath="/administrator/components/com_squadmanagement/models/fields">
+    <field
+			name="id"
+			type="hidden"		/>
+    <field
+			name="wardatetime"
+			type="calendar"
+      format="%Y-%m-%d %H:%M:%S" 
+      filter="user_utc"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_WARDATETIME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_WARDATETIME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"		/>
+    <field
+			name="opponent"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_OPPONENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_OPPONENT_DESC"
+			size="40"
+			class="inputbox"
+			required="true"
+		/>
+    <field
+     name="opponenturl"
+     type="text"
+     label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_OPPONENTURL_LABEL"
+     description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_OPPONENTURL_DESC"
+     size="40"
+     class="inputbox"
+     required="true"
+		/>
+    <field
+			name="contact"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_CONTACT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_CONTACT_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+			name="contactemail"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_CONTACTEMAIL_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_OPPONENT_CONTACTEMAIL_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+			name="squadid"
+			type="squadchallenge"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_SQUAD_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_SQUAD_DESC"
+			size="5"
+			class="inputbox"
+			required="true"
+		/>
+    <field
+     name="leagueid"
+     type="league"
+     label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_LEAGUE_LABEL"
+     description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_LEAGUE_DESC"
+     size="5"
+     class="inputbox"
+     required="true"
+		/>
+    <field
+			name="matchlink"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_MATCHLINK_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_MATCHLINK_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+    <field
+			name="lineupopponent"
+			type="textarea"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_LINEUPOPPONENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_LINEUPOPPONENT_DESC"
+			size="40"
+			class="inputbox"
+			required="false"		/>
+    <field
+			name="description"
+			type="textarea"
+      rows="10" cols="5"
+			label="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_DESCRIPTION_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_CHALLENGE_DESCRIPTION_DESC"
+		  class="inputbox"/>
+    <field
+      name="captcha"
+      type="captcha"
+      label="COM_CONTACT_CAPTCHA_LABEL"
+      description="COM_CONTACT_CAPTCHA_DESC"
+      validate="captcha"
+      namespace="squadmanagement"	/>
+  </fieldset>
+</form>

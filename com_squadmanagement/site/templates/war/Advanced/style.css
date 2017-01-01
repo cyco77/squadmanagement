@@ -1,0 +1,295 @@
+
+#wartemplate_teams_border
+{
+    background-color: #FFFFFF;
+    background-image: url("images/grey-bg.png");
+    background-repeat: repeat-x;
+    width: 99%;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+    margin-bottom: 5px;
+}
+
+#wartemplate_teams
+{
+    border: 0;
+    width: 100%;
+}
+
+#wartemplate_teams tr, #wartemplate_teams td
+{
+    border: 0px solid #ddd;
+}
+
+.wartemplate_left
+{
+    width: 45%;
+    text-align: center;
+}
+
+.wartemplate_right
+{
+    width: 45%;
+    text-align: center;
+}
+
+.wartemplate_middle
+{
+    text-align: center;
+}
+
+.wartemplate_teams_header
+{
+    border-bottom: 1px solid #CCC;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.wartemplate_teams_logo
+{
+    padding: 10px;
+}
+
+.wartemplate_teams_result
+{
+    padding-bottom: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.wartemplate_teams_lineup
+{
+    padding: 10px;
+}
+
+.wartemplate_result_draw
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #D9CA13;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.wartemplate_result_win
+{
+    color: #FFFFFF;
+    background-color: #15B440;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.wartemplate_result_lost
+{
+    color: #FFFFFF;
+    background-color: #FD1314;
+    font-weight: bold;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#wartemplate_data
+{
+    width: 100%;
+}
+
+#wartemplate_data tr
+{
+    border: 0;
+}
+
+#wartemplate_data th
+{
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+}
+
+#wartemplate_data td
+{
+    padding: 5px;
+    border: 0;
+}
+
+.wartemplate_data_caption
+{
+    font-weight: bold;
+}
+
+.wartemplate_data_value
+{
+    width: 100%;
+}
+
+.wartemplate_players
+{
+    font-size: 15px;
+}
+
+#wartemplate_rounds
+{
+    width: 100%;
+}
+
+#wartemplate_rounds th
+{
+    padding: 5px;
+    border-bottom: 1px solid #CCC;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+}
+
+#wartemplate_rounds tr
+{
+    border: 0;
+}
+
+#wartemplate_rounds td
+{
+    border: 0;
+    padding: 2px;
+    white-space: nowrap;
+}
+
+.wartemplate_rounds_map img
+{
+    margin: 5px;
+}
+
+.wartemplate_rounds_score
+{
+    text-align: center;
+}
+
+.wartemplate_rounds_screenshot
+{
+}
+
+.wartemplate_rounds_screenshot img
+{
+    margin: 5px;
+}
+
+/* Trend */
+
+.trend
+{
+    position: relative;
+    height: 200px;
+    background: url("../../../images/wartrendbg.png") repeat-x left top;
+}
+
+.trendbegin
+{
+    width: 50px;
+    height: 220px;
+    display: block;
+    float: left;
+}
+
+.trendbegin_win
+{
+    position: absolute;
+    top: 18px;
+    left: 7px;
+    font-size: 120%;
+    font-weight:bold;
+}
+
+.trendbegin_draw
+{
+    position: absolute;
+    top: 88px;
+    left: 7px;
+    font-size: 120%;
+    font-weight:bold;
+}
+
+.trendbegin_lost
+{
+    position: absolute;
+    top: 165px;
+    left: 7px;
+    font-size: 120%;
+    font-weight:bold;
+}
+
+.trendopponentlink
+{
+    height: 30px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.trendelement
+{
+    width: 60px;
+    height: 200px;
+    float: left;
+}
+
+.win_win
+{
+    background: url("../../../images/wartrend_win_win.png") no-repeat left top;
+}
+
+.win_draw
+{
+    background: url("../../../images/wartrend_win_draw.png") no-repeat left top;
+}
+
+.win_lost
+{
+    background: url("../../../images/wartrend_win_lost.png") no-repeat left top;
+}
+
+.draw_win
+{
+    background: url("../../../images/wartrend_draw_win.png") no-repeat left top;
+}
+
+.draw_draw
+{
+    background: url("../../../images/wartrend_draw_draw.png") no-repeat left top;
+}
+
+.draw_lost
+{
+    background: url("../../../images/wartrend_draw_lost.png") no-repeat left top;
+}
+
+.lost_win
+{
+    background: url("../../../images/wartrend_lost_win.png") no-repeat left top;
+}
+
+.lost_draw
+{
+    background: url("../../../images/wartrend_lost_draw.png") no-repeat left top;
+}
+
+.lost_lost
+{
+    background: url("../../../images/wartrend_lost_lost.png") no-repeat left top;
+}

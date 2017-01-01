@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"
+		/>
+    <field
+			name="name"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_FIELD_NAME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_FIELD_NAME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"
+		/>
+    <field
+			name="org_fieldname"
+			type="hidden"
+		/>
+    <field
+			name="fieldname"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_FIELD_FIELDNAME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_FIELD_FIELDNAME_DESC"
+			size="40"
+			class="inputbox"
+      default=""
+			required="true"
+		/>
+    <field
+     name="org_fieldtype"
+     type="hidden"
+		/>
+    <field
+        name="fieldtype"
+        type="additionalfieldtype"
+        multiple="false"
+        label="COM_SQUADMANAGEMENT_FIELD_FIELD_FIELDTYPE_LABEL"
+        description="COM_SQUADMANAGEMENT_FIELD_FIELD_FIELDTYPE_DESC"
+        size="1"
+        class="inputbox"
+        required="true"
+		/>
+    <field
+     name="org_maxlength"
+     type="hidden"
+		/>
+    <field
+			name="maxlength"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_FIELD_MAXLENGTH_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_FIELD_MAXLENGTH_DESC"
+			size="40"
+      default="35"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+      name="icon"
+      type="media"
+      directory="squadmanagement/fieldicons"
+      label="COM_SQUADMANAGEMENT_FIELD_FIELD_ICON_LABEL"
+      description="COM_SQUADMANAGEMENT_FIELD_FIELD_ICON_DESC" />
+    <field id="showinprofile"
+			name="showinprofile"
+			type="list"
+			label="COM_SQUADMANAGEMENT_FIELD_FIELD_SHOWINPROFILE_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_FIELD_SHOWINPROFILE_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		>
+      <option value="1">
+        JYES
+      </option>
+      <option value="0">
+        JNO
+      </option>
+
+    </field>
+   <field id="showinlist"
+   name="showinlist"
+   type="list"
+   label="COM_SQUADMANAGEMENT_FIELD_FIELD_SHOWINLIST_LABEL"
+   description="COM_SQUADMANAGEMENT_FIELD_FIELD_SHOWINLIST_DESC"
+   class="inputbox"
+   size="1"
+   default="1"
+		>
+      <option value="1">
+        JYES
+      </option>
+      <option value="0">
+        JNO
+      </option>
+
+    </field>
+    <field
+    name="tabid"
+    type="additionaltab"
+    multiple="false"
+    label="COM_SQUADMANAGEMENT_FIELD_FIELD_TABS_LABEL"
+    description="COM_SQUADMANAGEMENT_FIELD_FIELD_TABS_DESC"
+    size="1"
+    class="inputbox"
+    required="true"
+		/>
+    <field id="published"
+			name="published"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+      name="ordering"
+      type="hidden"
+		    />
+  </fieldset>
+</form>

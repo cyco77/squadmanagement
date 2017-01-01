@@ -1,0 +1,85 @@
+
+#userdashboardhead {
+    display: table;
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    margin-bottom: 20px;
+}
+
+#userdashboardheadimage {
+    float: left;
+    border: 1px solid #BBB;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    margin: 4px;
+}
+
+#userdashboardhead h2 {
+}
+
+#userdashboardbankpayedto {
+    margin: 10px;
+}
+
+#userdashboardbankpayedtostatus {
+    float:right;
+}
+
+#userdashboardbanklastbankitem {
+    margin: 10px;
+}
+
+#userdashboard table {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#userdashboard tablecaption {
+    display: table-cell;
+    padding: 5px;
+    font-weight:bold;
+    white-space: nowrap;
+}
+
+#userdashboard th {
+    display: table-cell;
+    padding: 5px;
+    font-weight:bold;
+}
+
+#userdashboard td {
+    display: table-cell;
+    padding: 5px;
+}
+
+#userdashboard td.state {
+    white-space: nowrap;
+    width: 24px;  
+    text-align: center;  
+}
+
+#userdashboard col {
+    white-space: nowrap;
+}
+
+#userdashboard td.coldatetime {
+    white-space: nowrap;
+    width: 70px;
+}
+
+#userdashboard colmax {
+    width: 100%;
+}
+
+.squadmanagement_admin_toolbar_item {
+    cursor: pointer;
+    text-align:center;
+}
+
+.notpayed {
+    background-color: #f26868;
+}

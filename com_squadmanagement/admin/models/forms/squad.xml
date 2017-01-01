@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"
+		/>
+    <field
+			name="shortname"
+			type="text"
+			label="COM_SQUADMANAGEMENT_SQUAD_FIELD_SHORTNAME_LABEL"
+			description="COM_SQUADMANAGEMENT_SQUAD_FIELD_SHORTNAME_DESC"
+			size="20"
+			class="inputbox"
+			default=""
+		/>
+    <field
+			name="name"
+			type="text"
+			label="COM_SQUADMANAGEMENT_SQUAD_FIELD_NAME_LABEL"
+			description="COM_SQUADMANAGEMENT_SQUAD_FIELD_NAME_DESC"
+			size="40"
+			class="inputbox"
+			default=""
+      required="true"
+		/>
+    <field name="catid" type="categoryedit" extension="com_squadmanagement"
+      label="JCATEGORY" description="COM_SQUADMANAGEMENT_SQUAD_FIELD_CATEGORY_DESC"
+      class="inputbox" required="true"
+      addfieldpath="/administrator/components/com_categories/models/fields"
+	    />
+    <field
+     name="squadleader"
+     type="user"
+     label="COM_SQUADMANAGEMENT_SQUAD_FIELD_SQUADLEADER_LABEL"
+     description="COM_SQUADMANAGEMENT_SQUAD_FIELD_SQUADLEADER_DESC"
+     size="20"
+     class="inputbox"
+     required="true"
+		/>
+    <field
+     name="waradmin"
+     type="squadmember"
+     label="COM_SQUADMANAGEMENT_SQUAD_FIELD_WARADMIN_LABEL"
+     description="COM_SQUADMANAGEMENT_SQUAD_FIELD_WARADMIN_DESC"
+     size="1"
+     class="inputbox"
+     required="false"
+		/>
+    <field
+			name="ismanagementsquad"
+			type="list"
+			label="COM_SQUADMANAGEMENT_SQUAD_FIELD_ISMANAGEMENTSQUAD_LABEL"
+			description="COM_SQUADMANAGEMENT_SQUAD_FIELD_ISMANAGEMENTSQUAD_DESC"
+			default="0"
+      required="false">
+      <option value="1">
+        JYES
+      </option>
+      <option value="0">
+        JNO
+      </option>
+    </field>
+    <field
+        name="icon"
+        type="media"
+        directory="squadmanagement/icons"
+        label="COM_SQUADMANAGEMENT_SQUAD_FIELD_ICON_LABEL"
+        description="COM_SQUADMANAGEMENT_SQUAD_FIELD_ICON_DESC" />
+    <field
+				name="image"
+				type="media"
+				directory="squadmanagement/logos"
+				label="COM_SQUADMANAGEMENT_SQUAD_FIELD_IMAGE_LABEL"
+				description="COM_SQUADMANAGEMENT_SQUAD_FIELD_IMAGE_DESC" />
+    <field
+        name="description"
+        type="editor"
+        label="COM_SQUADMANAGEMENT_SQUAD_FIELD_DESCRIPTION_LABEL"
+        description="COM_SQUADMANAGEMENT_SQUAD_FIELD_DESCRIPTION_DESC"
+        class="inputbox"
+        filter="JComponentHelper::filterText"
+        buttons="true"
+        hide="readmore,pagebreak"	/>
+    <field id="published"
+			name="published"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+      name="ordering"
+      type="hidden"
+		    />
+  </fieldset>
+
+
+</form>

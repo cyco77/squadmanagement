@@ -1,0 +1,161 @@
+
+
+.mod_squadmanagement_warcalendar_year_header
+{
+    font-size: 18px;
+    clear: both;
+    margin-left: 5px;
+}
+
+.mod_squadmanagement_warcalendar_year
+{
+    background-color: yellow;
+    clear: both;
+}
+
+.mod_squadmanagement_warcalendar_calendar
+{
+    margin: 5px;
+    text-align: center;
+    padding: 1px;
+}
+
+.mod_squadmanagement_warcalendar_calendar_table
+{
+    text-align: center;
+    border: 0;
+    width: 100%;
+}
+
+.mod_squadmanagement_warcalendar_calendar_table button
+{
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    padding: 5px;
+    
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.65s;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.65s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-property: background-color;
+    -o-transition-duration: 0.65s;
+    -o-transition-timing-function: ease-out;
+}
+
+.mod_squadmanagement_warcalendar_calendar_table button:hover
+{
+    font-weight: bold;
+    background-color: #9cb56e;
+}
+
+.mod_squadmanagement_warcalendar_calendar_header
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.mod_squadmanagement_warcalendar_calendar_daysofweek
+{
+    width: 14%;
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #dff3bb;
+}
+
+.mod_squadmanagement_warcalendar_day
+{
+    font-size: 10px;
+    border: 1px solid #666666;
+    text-align: center;
+    padding: 1px;
+}
+
+.mod_squadmanagement_warcalendar_calendar_cell
+{
+    border: 1px solid #ddd;    
+    display: table-cell;
+    width: 14%;
+    text-align: center;
+    padding: 5px;
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.65s;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.65s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-property: background-color;
+    -o-transition-duration: 0.65s;
+    -o-transition-timing-function: ease-out;
+}
+
+.mod_squadmanagement_warcalendar_calendar_cell a
+{
+    text-decoration: none;
+}
+
+.mod_squadmanagement_warcalendar_calendar_cell span
+{
+    display: block;
+}
+
+
+.mod_squadmanagement_warcalendar_calendar_cell:hover
+{
+    background-color: #9cb56e;
+}
+
+.mod_squadmanagement_warcalendar_result_draw
+{
+    border: 2px solid #D9CA13;
+    font-weight: bold;
+}
+
+.mod_squadmanagement_warcalendar_result_draw a,
+.mod_squadmanagement_warcalendar_result_draw a:link,
+.mod_squadmanagement_warcalendar_result_draw a:visited
+{
+    color: #D9CA13;
+}
+
+.mod_squadmanagement_warcalendar_result_win
+{
+    border: 2px solid #289F0A;
+    font-weight: bold;
+}
+
+.mod_squadmanagement_warcalendar_result_win a,
+.mod_squadmanagement_warcalendar_result_win a:link,
+.mod_squadmanagement_warcalendar_result_win a:visited
+{
+    color: #289F0A;
+}
+
+.mod_squadmanagement_warcalendar_result_lost
+{
+    border: 2px solid #D7084B;
+    font-weight: bold;
+}
+
+.mod_squadmanagement_warcalendar_result_lost a,
+.mod_squadmanagement_warcalendar_result_lost a:link,
+.mod_squadmanagement_warcalendar_result_lost a:visited
+{
+    color: #D7084B;
+}
+
+.mod_squadmanagement_warcalendar_result_challenged
+{
+    border: 2px solid #0055ff;
+    font-weight: bold;
+}
+
+.mod_squadmanagement_warcalendar_result_challenged a,
+.mod_squadmanagement_warcalendar_result_challenged a:link,
+.mod_squadmanagement_warcalendar_result_challenged a:visited
+{
+    color: #0055ff;
+}

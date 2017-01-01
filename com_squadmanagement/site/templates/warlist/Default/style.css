@@ -1,0 +1,122 @@
+
+#warlisttemplate_wars {
+    width: 100%;
+}
+
+    #warlisttemplate_wars td {
+        padding: 3px;
+    }
+
+    #warlisttemplate_wars th {
+        padding: 3px;
+    }
+
+.warlisttemplate_results {
+    text-align: center;
+}
+
+.warlisttemplate_result_draw {
+    color: #D9CA13;
+    font-weight: bold;
+}
+
+.warlisttemplate_result_win {
+    color: #289F0A;
+    font-weight: bold;
+}
+
+.warlisttemplate_result_lost {
+    color: #D7084B;
+    font-weight: bold;
+}
+
+.warlisttemplate_resultbackground_draw {
+    background-color: #D9CA13;
+}
+
+.warlisttemplate_resultbackground_win {
+    background-color: #289F0A;
+}
+
+.warlisttemplate_resultbackground_lost {
+    background-color: #D7084B;
+}
+
+.warlisttemplate_resultbackground_planned {
+    background-color: #0055ff;
+}
+
+.warlisttemplate_resultbackground_challenged {
+    background-color: #000099;
+}
+
+.chartscontainer li {
+    list-style: none;
+}
+
+.squadmanagement_warcalendar_legend li {
+    list-style: none;
+    display: inline-block;
+}
+
+    .squadmanagement_warcalendar_legend li div {
+        float: left;
+        margin-right: 2px;
+    }
+
+
+.squadmanagement_wars_date {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.squadmanagement_wars_squad {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.squadmanagement_wars_squad_image {
+}
+
+    .squadmanagement_wars_squad_image img {
+        height: 20px;
+        width: 20px;
+        max-width: none;
+    }
+
+.squadmanagement_wars_opponent_image {
+}
+
+    .squadmanagement_wars_opponent_image img {
+        height: 20px;
+        width: 20px;
+        max-width: none;
+    }
+
+.squadmanagement_wars_opponent {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.squadmanagement_wars_league {
+    text-align: left;
+    white-space: nowrap;
+}
+
+@media all and (max-width: 480px) {
+
+    /* Warlist*/
+    .squadmanagement_wars_league {
+        display: none;
+    }
+
+    .squadmanagement_wars_squad {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 980px) {
+}

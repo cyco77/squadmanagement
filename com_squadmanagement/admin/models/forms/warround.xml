@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"		/>
+	<field
+			name="map"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_WARROUND_MAP_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WARROUND_MAP_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+		  name="mapimage"
+		  type="media"
+		  directory="squadmanagement/mapimages"
+		  label="COM_SQUADMANAGEMENT_FIELD_WARROUND_MAPIMAGE_LABEL"
+		  description="COM_SQUADMANAGEMENT_FIELD_WARROUND_MAPIMAGE_DESC"	  />
+    <field
+			name="roundscore"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_WARROUND_SCORE_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WARROUND_SCORE_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+			name="roundscoreopponent"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_WARROUND_SCOREOPPONENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WARROUND_SCOREOPPONENT_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+		  name="screenshot"
+		  type="media"
+		  directory="squadmanagement/warscreenshots"
+		  label="COM_SQUADMANAGEMENT_FIELD_WARROUND_SCREENSHOT_LABEL"
+		  description="COM_SQUADMANAGEMENT_FIELD_WARROUND_SCREENSHOT_DESC"  />    
+  </fieldset>
+</form>

@@ -1,0 +1,12 @@
+
+.squadmanagement_bankitem_incoming {
+    color: #3bb208;
+}
+
+.squadmanagement_bankitem_outgoing {
+    color: #ff0000;
+}
+
+#memberInfodue {
+    display: none;
+}

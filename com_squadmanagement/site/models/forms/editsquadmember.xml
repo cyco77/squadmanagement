@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field
+			name="userid"
+			type="hidden"
+		/>
+    <field
+     name="displayname"
+     type="text"
+     label="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_DISPLAYNAME_LABEL"
+     description="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_DISPLAYNAME_DESC"
+     size="40"
+     class="inputbox"
+     default=""
+     required="false"
+		/>
+    <field
+     name="steamid"
+     type="text"
+     label="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_STEAMID_LABEL"
+     description="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_STEAMID_DESC"
+     size="40"
+     class="inputbox"
+     default=""
+     required="false"
+		/>
+    <field
+     name="imageurl"
+     type="media"
+     directory="squadmanagement/player"
+     label="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_IMAGEURL_LABEL"
+     preview="true"/>
+    <field
+       name="description"
+       type="editor"
+       label="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_DESCRIPTION_LABEL"
+       description="COM_SQUADMANAGEMENT_FIELD_EDITSQUADMEMBER_DESCRIPTION_DESC"
+       class="inputbox"
+       filter="JComponentHelper::filterText"
+       buttons="true"
+       hide="readmore,pagebreak"	/>
+    <field
+      name="ordering"
+      type="hidden"
+		    />
+  </fieldset>
+</form>

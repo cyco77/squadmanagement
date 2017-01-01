@@ -1,0 +1,287 @@
+
+/* Sqaudist */
+
+.squadlisttemplate_memberlist ul {
+    padding: 0;
+    margin: 0;
+}
+
+.squadlisttemplate_memberlist li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Squad */
+
+.squadlisttemplate_squad_header {
+    width: 100%;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.squadlisttemplate_squad {
+    clear: both;
+}
+
+.squadlisttemplate_squad_image {
+    float: left;
+    display: table-cell;
+}
+
+    .squadlisttemplate_squad_image img {
+        text-align: center;
+    }
+
+.squadlisttemplate_squad_name {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+    .squadlisttemplate_squad_name span {
+        font-weight: bold;
+        color: #555;
+        font-family: 'Titillium Maps', Arial;
+        font-size: 24px;
+    }
+
+.squadtemplate_description {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    background-image: url("images/grey-bg.png");
+    background-repeat: repeat-x;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+}
+
+.squadtemplate_results {
+    background-color: #FFFFFF;
+    background-image: url("images/grey-bg.png");
+    background-repeat: repeat-x;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+}
+
+
+/* Squadmember */
+
+.squadlisttemplate_squadmember {
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    background-color: #FFFFFF;
+    background-image: url("images/grey-bg.png");
+    background-repeat: repeat-x;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -o-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -webkit-box-shadow: inset 0 1px 3px #fff, 0 0 3px #ccc;
+    -moz-box-shadow: inset 0 1px 3px #fff, 0 0;
+}
+
+.squadlisttemplate_squadmember_name {
+    font-family: 'Titillium Maps', Arial;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #BBB;
+    font-weight: bold;
+}
+
+.squadlisttemplate_squadmember_image {
+    float: left;
+}
+
+    .squadlisttemplate_squadmember_image img {
+        margin: 10px;
+        border-radius: 4px 4px 4px 4px;
+        -webkit-border-radius: 4px 4px 4px 4px;
+        -moz-border-radius: 4px 4px 4px 4px;
+    }
+
+.squadlisttemplate_squadmember_details {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.squadlisttemplate_squadmember_details_field {
+    margin-top: 1px;
+    min-height: 20px;
+}
+
+.squadlisttemplate_squadmember_online {
+    border-top: 1px solid #BBB;
+    clear: both;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+/* Warlist */
+
+#warlisttemplate_wars_header {
+    font-weight: bold;
+    color: #555;
+    font-family: 'Titillium Maps', Arial;
+    font-size: 16px;
+}
+
+#warlisttemplate_wars {
+    width: 100%;
+    margin: 3px;
+    border: 0;
+}
+
+    #warlisttemplate_wars tr {
+        border: 0;
+    }
+
+    #warlisttemplate_wars td {
+        padding: 3px;
+        border: 0;
+    }
+
+    #warlisttemplate_wars th {
+        padding: 3px;
+    }
+
+.warlisttemplate_results {
+    text-align: center;
+}
+
+.warlisttemplate_result_draw {
+    color: #D9CA13;
+    font-weight: bold;
+}
+
+.warlisttemplate_result_win {
+    color: #289F0A;
+    font-weight: bold;
+}
+
+.warlisttemplate_result_lost {
+    color: #D7084B;
+    font-weight: bold;
+}
+
+.warlisttemplate_resultbackground_draw {
+    background-color: #D9CA13;
+}
+
+.warlisttemplate_resultbackground_win {
+    background-color: #289F0A;
+}
+
+.warlisttemplate_resultbackground_lost {
+    background-color: #D7084B;
+}
+
+.warlisttemplate_resultbackground_challenged {
+    background-color: #0055ff;
+}
+
+.chartscontainer li {
+    list-style: none;
+}
+
+.squadmanagement_warcalendar_legend li {
+    list-style: none;
+    display: inline-block;
+}
+
+    .squadmanagement_warcalendar_legend li div {
+        float: left;
+        margin-right: 2px;
+    }
+
+/* Awards */
+
+#awardstemplate_awards_header {
+    font-weight: bold;
+    color: #555;
+    font-family: 'Titillium Maps', Arial;
+    font-size: 16px;
+}
+
+#awardstemplate_awards {
+    width: 100%;
+    border: 0;
+}
+
+    #awardstemplate_awards tr {
+        border: 0;
+    }
+
+    #awardstemplate_awards td {
+        padding: 3px;
+        border: 0;
+    }
+
+    #awardstemplate_awards th {
+        padding: 3px;
+        border: 0;
+    }
+
+.awardstemplate_awards {
+    text-align: center;
+}
+
+@media all and (max-width: 480px) {
+    /* Squad */
+    .squadlisttemplate_squad_image {
+        clear: both;
+        display: block;
+    }
+
+    .squadlisttemplate_squad_name {
+        clear: both;
+        display: block;
+        vertical-align: middle;
+    }
+
+    /* SuqadMemberlist */
+    .squadlisttemplate_memberlist li {
+        list-style: none;
+        display: block;
+        vertical-align: top;
+    }
+
+    /* Squadmember */
+    .squadlisttemplate_squadmember {
+        width: 100%;
+    }
+
+    /* Warlist*/
+    .squadmanagement_wars_league {
+        display: none;
+    }
+
+    /* Awardlist*/
+    .squadmanagement_awards_url {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 980px) {
+}

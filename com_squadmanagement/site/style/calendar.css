@@ -1,0 +1,223 @@
+
+.squadmanagement_warcalendar_year_header
+{
+    font-size: 18px;
+    clear: both;
+    margin-left: 5px;
+}
+
+.squadmanagement_warcalendar_year
+{
+    background-color: yellow;
+    clear: both;
+}
+
+.squadmanagement_warcalendar_calendar
+{
+    margin: 5px;
+    text-align: center;
+    padding: 1px;
+    min-width: 300px;
+}
+
+.squadmanagement_warcalendar_calendar_table
+{
+    text-align: center;
+    border: 0;
+    width: 100%;
+}
+
+.squadmanagement_warcalendar_calendar_table button
+{
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    width: 100%;
+    padding: 5px;
+    
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.65s;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.65s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-property: background-color;
+    -o-transition-duration: 0.65s;
+    -o-transition-timing-function: ease-out;
+}
+
+.squadmanagement_warcalendar_calendar_table button:hover
+{
+    font-weight: bold;
+    background-color: #9cb56e;
+}
+
+.squadmanagement_warcalendar_calendar_table td
+{
+    /*border: 0;*/
+}
+
+.squadmanagement_warcalendar_calendar_table tr
+{
+    border: 0;
+}
+
+.squadmanagement_warcalendar_calendar_header
+{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.squadmanagement_warcalendar_calendar_daysofweek
+{
+    font-weight: bold;
+    width: 14%;
+    padding: 5px;
+    color: #333;
+    border: 1px solid #ddd;
+    background-color: #dff3bb;
+    text-align: left;
+}
+
+.squadmanagement_warcalendar_day_cell
+{
+    border: 1px solid #ddd;
+    display: table-cell;
+    width: 14%;
+    height: 75px;
+    vertical-align: top;
+    text-align: left;
+    -moz-transition-property: background-color;
+    -moz-transition-duration: 0.5s;
+    -moz-transition-timing-function: ease-out;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.55s;
+    -webkit-transition-timing-function: ease-out;
+    -o-transition-property: background-color;
+    -o-transition-duration: 0.55s;
+    -o-transition-timing-function: ease-out;
+}
+
+.squadmanagement_warcalendar_day_cell a
+{
+    text-decoration: none;
+}
+
+.squadmanagement_warcalendar_day_cell span
+{
+    display: block;
+}
+
+.squadmanagement_warcalendar_day_cell:hover
+{
+    background-color: #9cb56e;
+    color: #FFFFFF;
+}
+
+.squadmanagement_warcalendar_day_number
+{
+    margin: 3px;
+}
+
+.squadmanagement_warcalendar_day_current
+{
+    background-color: #9cb56e;
+    height: 3px;
+}
+
+.squadmanagement_warcalendar_war
+{
+    background-color: #dff3bb;
+    color: #333333;
+}
+
+.squadmanagement_warcalendar_war a:link,
+.squadmanagement_warcalendar_war a:visited {
+	color: #333333;
+}
+
+.squadmanagement_warcalendar_war td
+{
+    border: 0;
+}
+
+.squadmanagement_warcalendar_war img
+{
+    margin: 2px;
+}
+
+.squadmanagement_warcalendar_war_result
+{
+    width: 7px;
+}
+
+.squadmanagement_warcalendar_result_draw
+{
+    background-color: #D9CA13;
+}
+
+.squadmanagement_warcalendar_result_win
+{
+    background-color: #289F0A;
+}
+
+.squadmanagement_warcalendar_result_lost
+{
+    background-color: #D7084B;
+}
+
+.squadmanagement_warcalendar_result_challenged
+{
+    background-color: #0055ff;
+}
+
+.squadmanagement_warcalendar_appointment_0 {
+    background-color: #205e89;
+}
+
+.squadmanagement_warcalendar_appointment_1 {
+    background-color: #8daa29;
+}
+
+.squadmanagement_warcalendar_appointment_2 {
+    background-color: #aa8129;
+}
+
+.squadmanagement_warcalendar_appointment_3 {
+    background-color: #0c1f7f;
+}
+
+.squadmanagement_warcalendar_appointment_4 {
+    background-color: #0c7f37;
+}
+
+.squadmanagement_warcalendar_appointment_5 {
+    background-color: #7f320c;
+}
+
+.squadmanagement_warcalendar_appointment_6 {
+    background-color: #480c7f;
+}
+
+.squadmanagement_warcalendar_appointment_7 {
+    background-color: #b81fc6;
+}
+
+.squadmanagement_warcalendar_appointment_8 {
+    background-color: #6eb3d7;
+}
+
+.squadmanagement_warcalendar_appointment_9 {
+    background-color: #9dd76e;
+}
+
+.squadmanagement_warcalendar_legend li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.squadmanagement_warcalendar_legend li div {
+	float: left;
+	margin-right: 2px;
+}

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"		/>
+    <field
+			name="name"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_LEAGUE_NAME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_LEAGUE_NAME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"		/>
+    <field
+			name="shortname"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_LEAGUE_SHORTNAME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_LEAGUE_SHORTNAME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"		/>
+    <field
+		name="logo"
+		type="media"
+		directory="squadmanagement/leagues"
+		label="COM_SQUADMANAGEMENT_FIELD_LEAGUE_LOGO_LABEL"
+		description="COM_SQUADMANAGEMENT_FIELD_LEAGUE_LOGO_DESC"
+			  />
+    <field
+			name="url"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_LEAGUE_URL_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_LEAGUE_url_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field id="published"
+			name="published"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+      name="ordering"
+      type="hidden"/>
+  </fieldset>
+</form>

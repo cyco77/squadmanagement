@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<metadata>
+  <layout title="COM_SQUADMANAGEMENT_SQUADCATEGORIES_VIEW_DEFAULT_TITLE">
+    <message>COM_SQUADMANAGEMENT_SQUADCATEGORIES_VIEW_DEFAULT_DESC</message>
+  </layout>
+  <fields
+      name="request"
+      addfieldpath="/administrator/components/com_squadmanagement/models/fields"
+	>
+    <fieldset name="request">
+      <field addpath="/administrator/components/com_squadmanagement/elements"
+            name="squadcategorylisttemplate"
+            type="SquadCategoryListTemplate"
+            label="COM_SQUADMANAGEMENT_SELECTSQUADCATEGORYLISTTEMPLATE_LABEL"
+            description="COM_SQUADMANAGEMENT_SELECTSQUADCATEGORYLISTTEMPLATE_DESC"
+      >
+        <option value="">JGLOBAL_USE_GLOBAL</option>
+      </field>
+    </fieldset>
+  </fields>
+</metadata>
+

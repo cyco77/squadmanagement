@@ -1,0 +1,233 @@
+
+#squadmembertemplate_member_common
+{
+    margin-right: 200px;
+}
+
+#squadmembertemplate_member_image
+{
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+#squadmembertemplate_member_image img
+{
+    max-height: 200px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+.squadmembertemplate_member
+{
+    width: 100%;
+    display: table;
+}
+
+.squadmembertemplate_member_name
+{
+    color: #555;
+    font-family: 'Titillium Maps' , Arial;
+    font-size: 24px;
+}
+
+.squadmembertemplate_member_fieldheading
+{
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.squadmembertemplate_member_field
+{
+    width: 100%;
+}
+
+.squadmembertemplate_member_additionalinfos
+{
+    clear: both;
+}
+
+.squadmembertemplate_member_commoninfo table
+{
+    width: 100%;
+}
+
+.squadmembertemplate_member_commoninfo tr
+{
+    border: 1px solid #FFF;
+}
+
+.squadmembertemplate_member_commoninfo td
+{
+    padding: 5px;
+    border: 1px solid #FFF;
+}
+
+/* TABS */
+
+dl.tabs
+{
+    float: left;
+    margin: 10px 0 -1px 0;
+    z-index: 50;
+}
+
+dl.tabs dt
+{
+    float: left;
+    padding: 4px 10px;
+    border-left: 1px solid #636363;
+    border-right: 1px solid #636363;
+    border-top: 1px solid #636363;
+    margin-left: 3px;
+    background: #484848;
+    color: #dcdcdc;
+}
+
+dl.tabs dt.open
+{
+    background: #222323;
+    border-bottom: 1px solid #222323;
+    z-index: 100;
+    color: #FFF;
+}
+
+div.current
+{
+    clear: both;
+    border: 1px solid #636363;
+    padding: 10px 10px;
+}
+
+div.current dd
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Steam */
+
+.steamplayer span {
+    font-weight: bold;
+}
+
+.steamplayer {
+     display: table-row;
+}
+
+.steamplayer div {
+    padding: 3px;
+}
+
+.steamid {
+    display: table-cell;
+}
+
+.steamavatar {
+    display: table-cell;
+}
+
+.steamstate {
+    display: table-cell;
+}
+
+.steammembersince {
+    display: table-cell;
+}
+
+/* Steam Games*/
+.steammostplayedgames {
+
+}
+
+.steamrecentgameactivity {
+    width: 100%;
+    color: #FFF;
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.steammostplayedgames span {
+    font-weight: bold;
+}
+
+.steammostplayedgames div {
+    padding: 3px;
+}
+
+.steamgame {
+    display: table-row;
+}
+
+.steamgamelogo {
+    display: table-cell;
+}
+
+.steamgamename {
+    display: table-cell;
+}
+
+.steamhoursplayed {
+    display: table-cell;
+}
+
+.steamhoursonrecord {
+    display: table-cell;
+}
+
+/* Steam Groups*/
+
+.steamgroups {
+}
+
+.steamgroupdheader {
+    width: 100%;
+    color: #FFF;
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+}
+
+.steamgroups span {
+    font-weight: bold;
+}
+
+.steamgroups div {
+    padding: 3px;
+}
+
+.steamgroup {
+    display: table-row;
+}
+
+.steamgrouplogo {
+    display: table-cell;
+}
+
+.steamgroupname {
+    display: table-cell;
+}
+
+.steamsteammembercount {
+    display: table-cell;
+}
+
+.steammembersonline {
+    display: table-cell;
+}
+
+.steammembersingame {
+    display: table-cell;
+}

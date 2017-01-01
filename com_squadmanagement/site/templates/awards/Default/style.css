@@ -1,0 +1,60 @@
+
+#awardstemplate_awards {
+    width: 100%;
+}
+
+    #awardstemplate_awards td {
+        padding: 3px;
+    }
+
+    #awardstemplate_awards th {
+        padding: 3px;
+    }
+
+.awardstemplate_awards {
+    text-align: center;
+}
+
+.squadmanagement_awards_place {
+    text-align: left;
+    white-space: nowrap;
+}
+
+.squadmanagement_awards_name {
+    text-align: left;
+    width: 30%;
+    white-space: nowrap;
+}
+
+.squadmanagement_awards_squad {
+    text-align: left;
+    width: 30%;
+    white-space: nowrap;
+}
+
+.squadmanagement_awards_url {
+    text-align: left;
+    width: 30%;
+    white-space: nowrap;
+}
+
+.squadmanagement_awards_date {
+    text-align: left;
+    white-space: nowrap;
+}
+
+@media all and (max-width: 480px) {
+    .squadmanagement_awards_url {
+        display: none;
+    }
+
+    .squadmanagement_awards_squad {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 980px) {
+}

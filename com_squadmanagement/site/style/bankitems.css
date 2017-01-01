@@ -1,0 +1,19 @@
+
+.squadmanagement_bankitem_incoming {
+    color: #3bb208;
+}
+
+.squadmanagement_bankitem_outgoing {
+    color: #ff0000;
+}
+
+@media all and (max-width: 480px) {
+
+    .squadmanagement_hidemobile {
+        display: none;
+    }
+}
+
+.squadmanagement_header {
+    font-weight: bold;
+}

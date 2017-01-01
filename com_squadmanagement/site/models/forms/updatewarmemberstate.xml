@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset addfieldpath="/administrator/components/com_squadmanagement/models/fields">
+    <field
+			name="id"
+			type="hidden"		/>
+    <field
+			name="state"
+			type="WarMemberState"
+			label="COM_SQUADMANAGEMENT_FIELD_WARMEMBERSTATE_STATE_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WARMEMBERSTATE_STATE_DESC"
+			size="1"
+			class="inputbox"
+		/>
+    <field
+			name="comment"
+			type="textarea"
+      rows="10" cols="20"
+			label="COM_SQUADMANAGEMENT_FIELD_WARMEMBERSTATE_COMMENT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_WARMEMBERSTATE_COMMENT_DESC"
+		class="inputbox"/>
+  </fieldset>
+</form>

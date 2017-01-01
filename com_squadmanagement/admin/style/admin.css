@@ -1,0 +1,160 @@
+
+.squadmanagement_frontpage {
+    display:table;
+    width: 100%;
+}
+
+.squadmanagement_frontpage_sections {
+    float: left;
+    display:table-cell;
+    width: 50%;
+    margin: 30px;
+}
+
+.squadmanagement_frontpage_section {
+    text-align: center;
+    margin-right: 15px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.squadmanagement_frontpage_section_inner a {
+	background-color: #fff;
+	background-position: -30px;
+	display: block;
+	float: left;
+	height: 97px;
+	width: 108px;
+	color: #565656;
+	vertical-align: middle;
+	text-decoration: none;
+	border: 1px solid #CCC;
+
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition-property:
+		background-position,
+		-webkit-border-bottom-left-radius,
+		-webkit-box-shadow;
+	-moz-transition-property:
+		background-position,
+		-moz-border-radius-bottomleft,
+		-moz-box-shadow;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+}
+
+.squadmanagement_frontpage_section_inner a:hover,
+.squadmanagement_frontpage_section_inner a:focus,
+.squadmanagement_frontpage_section_inner a:active{
+	background-position: 0;
+	-webkit-border-bottom-left-radius: 50% 20px;
+	-moz-border-radius-bottomleft: 50% 20px;
+	border-bottom-left-radius: 50% 20px;
+	-webkit-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.25);
+	position: relative;
+	z-index: 10;
+}
+
+.usersuggestions_table {
+    width: 100%;    
+}
+
+.usersuggestions_table td {
+    border: 1px solid #e5e5e5;
+}
+
+.usersuggestions_column_id {
+    text-align: center;
+    width: 50px;
+}
+
+.usersuggestions_column_username {
+    
+}
+
+.usersuggestions_column_email {
+    
+}
+
+div.icon-48-squadmanagement
+{  
+    background-image: url("../images/logo_48.png");
+}
+
+div.icon-48-squads
+{  
+    background-image: url("../images/squads.png");
+}
+
+div.icon-48-squadmembers
+{  
+    background-image: url("../images/squadmembers.png");
+}
+
+div.icon-48-infofields
+{  
+    background-image: url("../images/infofields.png");
+}
+
+div.icon-48-infotabs
+{  
+    background-image: url("../images/infotabs.png");
+}
+
+div.icon-48-league
+{  
+    background-image: url("../images/league.png");
+}
+
+div.icon-48-opponents
+{  
+    background-image: url("../images/opponents.png");
+}
+
+div.icon-48-wars
+{  
+    background-image: url("../images/wars.png");
+}
+
+div.icon-48-awards
+{  
+    background-image: url("../images/awards.png");
+}
+
+div.icon-48-appointments
+{  
+    background-image: url("../images/appointments.png");
+}
+
+div.icon-48-bankitems
+{  
+    background-image: url("../images/bankitems.png");
+}
+
+.icon-32-overview {
+    background-image: url("../images/bankitems_overview_32.png");
+}
+
+/* squadmanagementBadge */
+
+span.squadmanagement-badge {
+	background-image: -moz-linear-gradient(center bottom , #FF0000 41%, #FC7E7E 79%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.41, rgb(255,0,0)),color-stop(0.79, rgb(252,126,126)));
+    border: 2px solid white;
+    border-radius: 1.5em 1.5em 1.5em 1.5em;
+    color: white;
+    display: block;
+    float: left;
+    font-size: 1em;
+    font-weight: bold;
+    height: 1.2em;
+    left: 60px;
+    min-width: 1em;
+    padding: 0 0.1em 0;
+    position: relative;
+    top: -64px;
+}

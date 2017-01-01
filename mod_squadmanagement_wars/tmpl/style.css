@@ -1,0 +1,56 @@
+
+.mod_squadmanagement_wars_table
+{
+    width: 100%;
+}
+
+.mod_squadmanagement_wars_table tr
+{
+    border: 0;
+}
+
+.mod_squadmanagement_wars_table td
+{
+    padding: 2px;
+    border: 0;
+}
+
+.mod_squadmanagement_wars_logo
+{
+    width: 5%;
+}
+
+.mod_squadmanagement_wars_opponent
+{
+    width: 70%;
+}
+
+.mod_squadmanagement_wars_league
+{
+    font-size:70%;
+}
+
+.mod_squadmanagement_wars_score, 
+.mod_squadmanagement_wars_datetime
+{
+    text-align: center;
+    white-space: nowrap;	
+}
+
+.mod_squadmanagement_wars_result_draw
+{
+    color: #D9CA13;
+    font-weight: bold;
+}
+
+.mod_squadmanagement_wars_result_win
+{
+    color: #289F0A;
+    font-weight: bold;
+}
+
+.mod_squadmanagement_wars_result_lost
+{
+    color: #D7084B;
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+    <field
+			name="id"
+			type="hidden"
+		/>
+    <field
+			name="userid"
+			type="user"
+			label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_USERNAME_LABEL"
+			description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_USERNAME_DESC"
+			size="10"
+			class="inputbox"
+      required="true"
+		/>
+    <field
+			name="memberstate"
+			type="memberstate"
+			label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_MEMBERSTATE_LABEL"
+			description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_MEMBERSTATE_DESC"
+			size="1"
+			class="inputbox"
+      required="true"
+      default="2"
+		/>
+    <field
+    name="imageurl"
+    type="media"
+    directory="squadmanagement/player"
+    label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_IMAGE_LABEL"
+    description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_IMAGE_DESC" />
+    <field
+     name="displayname"
+     type="text"
+     label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_DISPLAYNAME_LABEL"
+     description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_DISPLAYNAME_DESC"
+     size="40"
+     class="inputbox"
+     default=""
+     required="false"
+		/>
+    <field
+     name="steamid"
+     type="text"
+     label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_STEAMID_LABEL"
+     description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_STEAMID_DESC"
+     size="40"
+     class="inputbox"
+     default=""
+     required="false"
+		/>
+    <field
+     name="role"
+     type="text"
+     label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_ROLE_LABEL"
+     description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_ROLE_DESC"
+     size="40"
+     class="inputbox"
+     default=""
+     required="false"
+		/>
+    <field
+     name="joinusdescription"
+     type="textarea"
+     rows="5" cols="5"
+     label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_JOINDESCRIPTION_LABEL"
+     description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_JOINDESCRIPTION_DESC"
+   class="inputbox"/>
+    <field
+       name="description"
+       type="editor"
+       label="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_DESCRIPTION_LABEL"
+       description="COM_SQUADMANAGEMENT_SQUADMEMBER_FIELD_DESCRIPTION_DESC"
+       class="inputbox"
+       filter="JComponentHelper::filterText"
+       buttons="true"
+       hide="readmore,pagebreak"	/>
+    <field id="published"
+			name="published"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"
+		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+      name="ordering"
+      type="hidden"
+		    />
+  </fieldset>
+</form>

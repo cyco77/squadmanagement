@@ -1,0 +1,114 @@
+
+/* Sqaudist */
+
+.squadlisttemplate_memberlist ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+.squadlisttemplate_memberlist li
+{
+    list-style: none;
+    display: inline-block;
+    vertical-align:top;
+}
+
+/* Squad */
+
+.squadlisttemplate_squad_header
+{
+    width: 100%;
+    display: table;
+    margin-bottom: 10px;
+}
+
+.squadlisttemplate_squad
+{
+    clear: both;    
+}
+
+.squadlisttemplate_squad_image
+{
+    float: left;
+    display: table-cell;
+}
+
+.squadlisttemplate_squad_image img
+{
+    text-align: center;
+}
+
+.squadlisttemplate_squad_name
+{
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.squadlisttemplate_squad_name span
+{
+    font-weight: bold;
+    color: #555;
+    font-family: 'Titillium Maps' , Arial;
+    font-size: 24px;
+}
+
+/* Squadmember */
+
+.squadlisttemplate_squadmember
+{
+    background-color: #EEE;
+    font-size: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    border: 1px solid #BBB;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+.squadlisttemplate_squadmember_name
+{
+    font-family: 'Titillium Maps' , Arial;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 1px solid #BBB;
+    font-weight: bold;
+}
+
+.squadlisttemplate_squadmember_image
+{
+    float: left;
+}
+
+.squadlisttemplate_squadmember_image img
+{
+    margin: 10px;
+    border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+}
+
+.squadlisttemplate_squadmember_details
+{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+
+.squadlisttemplate_squadmember_details_field
+{
+    margin-top: 1px;
+    min-height: 20px;
+}
+
+.squadlisttemplate_squadmember_online
+{
+    border-top: 1px solid #BBB;
+    clear: both;
+    font-size: 9px;
+    text-align: center;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<access component="com_squadmanagement">
+	<section name="component">
+    <action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+    <action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+    <action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />
+    <action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />
+    <action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+    <action name="core.edit.state" title="JACTION_EDITSTATE" description="JACTION_EDITSTATE_COMPONENT_DESC" />
+    <action name="core.edit.own" title="JACTION_EDITOWN" description="JACTION_EDITOWN_COMPONENT_DESC" />
+    <action name="com_squadmanagement.squad" title="COM_SQUADMANAGEMENT_ACCESS_SQUAD" description="COM_SQUADMANAGEMENT_ACCESS_SQUAD_DESC" />
+    <action name="com_squadmanagement.field" title="COM_SQUADMANAGEMENT_ACCESS_FIELD" description="COM_SQUADMANAGEMENT_ACCESS_FIELD_DESC" />
+    <action name="com_squadmanagement.league" title="COM_SQUADMANAGEMENT_ACCESS_LEAGUE" description="COM_SQUADMANAGEMENT_ACCESS_LEAGUE_DESC" />
+    <action name="com_squadmanagement.opponent" title="COM_SQUADMANAGEMENT_ACCESS_OPPONENT" description="COM_SQUADMANAGEMENT_ACCESS_OPPONENT_DESC" />
+    <action name="com_squadmanagement.war" title="COM_SQUADMANAGEMENT_ACCESS_WAR" description="COM_SQUADMANAGEMENT_ACCESS_WAR_DESC" />
+    <action name="com_squadmanagement.appointment" title="COM_SQUADMANAGEMENT_ACCESS_APPOINTMENT" description="COM_SQUADMANAGEMENT_ACCESS_APPOINTMENT_DESC" />
+    <action name="com_squadmanagement.award" title="COM_SQUADMANAGEMENT_ACCESS_AWARD" description="COM_SQUADMANAGEMENT_ACCESS_AWARD_DESC" />
+    <action name="com_squadmanagement.bankitem" title="COM_SQUADMANAGEMENT_ACCESS_BANKITEM" description="COM_SQUADMANAGEMENT_ACCESS_BANKITEM_DESC" />
+	</section>
+	<section name="category">
+		<action name="core.create" title="JACTION_CREATE" description="COM_CATEGORIES_ACCESS_CREATE_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="COM_CATEGORIES_ACCESS_DELETE_DESC" />
+		<action name="core.edit" title="JACTION_EDIT" description="COM_CATEGORIES_ACCESS_EDIT_DESC" />
+		<action name="core.edit.state" title="JACTION_EDITSTATE" description="COM_CATEGORIES_ACCESS_EDITSTATE_DESC" />
+	</section>
+</access>

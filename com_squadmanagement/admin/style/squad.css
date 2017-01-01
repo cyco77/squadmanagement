@@ -1,0 +1,19 @@
+
+#userlookupcaption {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #636363;
+}
+
+
+.usersuggestions_table td,
+.usersuggestions_table th
+{
+    padding: 5px;
+    border:1px solid #bbb;
+}
+
+.usersuggestions_table tr:hover {
+	cursor: pointer;
+	background-color: #f7e7c8;
+}

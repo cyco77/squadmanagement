@@ -1,0 +1,61 @@
+
+.squadlisttemplate_squads
+{
+    width: 100%;
+}
+
+.squadlisttemplate_squads tr
+{
+    padding: 3px;
+    border: 0;
+}
+
+.squadlisttemplate_squads td
+{
+    padding: 3px;
+    border: 0px;
+}
+
+.squadlisttemplate_squad_image
+{
+    text-align: center;
+}
+
+.squadlisttemplate_squad_name
+{
+    font-weight: bold;
+    color: #555;
+    font-family: 'Titillium Maps' , Arial;
+    font-size: 20px;
+}
+
+.squadlisttemplate_squadmember_tableheader td
+{
+    border: 1px solid #BBB;  
+    color: #555;
+    font-family: 'Titillium Maps' , Arial;
+    font-size: 14px; 
+}
+
+.squadlisttemplate_squadmember td
+{
+    border: 1px solid #BBB;
+    white-space: nowrap;
+}
+
+.squadlisttemplate_squadmember_image 
+{
+    text-align: center;	    
+}
+
+.squadlisttemplate_squadmember_image img 
+{
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+.squadlisttemplate_squadmember_name
+{
+
+}

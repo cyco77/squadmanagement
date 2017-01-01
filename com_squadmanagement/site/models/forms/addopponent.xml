@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: helloworld.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<form>
+  <fieldset addfieldpath="/administrator/components/com_squadmanagement/models/fields">
+    <field
+			name="id"
+			type="hidden"		/>
+    <field
+			name="name"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_OPPONENT_NAME_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_OPPONENT_NAME_DESC"
+			size="40"
+			class="inputbox"
+			required="true"		/>
+    <field
+      name="logo"
+      type="media"
+      directory="squadmanagement/opponents"
+      label="COM_SQUADMANAGEMENT_FIELD_OPPONENT_LOGO_LABEL"
+      description="COM_SQUADMANAGEMENT_FIELD_OPPONENT_LOGO_DESC"
+      preview="true"/>
+    <field
+			name="contact"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_OPPONENT_CONTACT_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_OPPONENT_CONTACT_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+			name="contactemail"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_OPPONENT_CONTACTEMAIL_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_OPPONENT_CONTACTEMAIL_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field
+			name="url"
+			type="text"
+			label="COM_SQUADMANAGEMENT_FIELD_OPPONENT_URL_LABEL"
+			description="COM_SQUADMANAGEMENT_FIELD_OPPONENT_URL_DESC"
+			size="40"
+			class="inputbox"
+			required="false"
+		/>
+    <field id="published"
+			name="published"
+			type="list"
+			label="JSTATUS"
+			description="JFIELD_PUBLISHED_DESC"
+			class="inputbox"
+			size="1"
+			default="1"		>
+      <option value="1">
+        JPUBLISHED
+      </option>
+      <option value="0">
+        JUNPUBLISHED
+      </option>
+    </field>
+    <field
+      name="ordering"
+      type="hidden"/>
+  </fieldset>
+</form>
